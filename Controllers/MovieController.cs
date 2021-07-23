@@ -16,7 +16,7 @@ namespace MovieApp.Controllers
         {
             return View();
         }
-        public IActionResult Detais()
+        public IActionResult Details()
         {
             return View();
         }
