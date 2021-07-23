@@ -15619,6 +15619,16 @@
   "RootNamespace": "MovieApp",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\oxika\\OneDrive\\Masaüstü\\MovieApp\\Views\\Home\\Contact.cshtml",
+      "TargetPath": "Views\\Home\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\oxika\\OneDrive\\Masaüstü\\MovieApp\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\oxika\\OneDrive\\Masaüstü\\MovieApp\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -15626,6 +15636,26 @@
     {
       "FilePath": "c:\\Users\\oxika\\OneDrive\\Masaüstü\\MovieApp\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\oxika\\OneDrive\\Masaüstü\\MovieApp\\Views\\Movie\\Index.cshtml",
+      "TargetPath": "Views\\Movie\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\oxika\\OneDrive\\Masaüstü\\MovieApp\\Views\\Movie\\List.cshtml",
+      "TargetPath": "Views\\Movie\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\oxika\\OneDrive\\Masaüstü\\MovieApp\\Views\\Movie\\Details.cshtml",
+      "TargetPath": "Views\\Movie\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\oxika\\OneDrive\\Masaüstü\\MovieApp\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
   ],
