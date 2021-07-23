@@ -39,3 +39,9 @@ C:\Users\oxika\OneDrive\Masaüstü\MovieApp\obj\Debug\net5.0\ref\MovieApp.dll
 C:\Users\oxika\OneDrive\Masaüstü\MovieApp\obj\Debug\net5.0\MovieApp.pdb
 C:\Users\oxika\OneDrive\Masaüstü\MovieApp\obj\Debug\net5.0\MovieApp.genruntimeconfig.cache
 C:\Users\oxika\OneDrive\Masaüstü\MovieApp\obj\Debug\net5.0\MovieApp.csproj.CopyComplete
+C:\Users\oxika\OneDrive\Masaüstü\MovieApp\bin\Debug\net5.0\package-lock.json
+C:\Users\oxika\OneDrive\Masaüstü\MovieApp\bin\Debug\net5.0\package.json
+C:\Users\oxika\OneDrive\Masaüstü\MovieApp\obj\Debug\net5.0\Razor\Views\Shared\_footer.cshtml.g.cs
+C:\Users\oxika\OneDrive\Masaüstü\MovieApp\obj\Debug\net5.0\Razor\Views\Shared\_navbar.cshtml.g.cs
+C:\Users\oxika\OneDrive\Masaüstü\MovieApp\obj\Debug\net5.0\Razor\Views\Home\_movies.cshtml.g.cs
+C:\Users\oxika\OneDrive\Masaüstü\MovieApp\obj\Debug\net5.0\Razor\Views\Shared\_menu.cshtml.g.cs
