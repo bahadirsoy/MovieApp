@@ -1,19 +1,22 @@
-@model IEnumerable<Movie>
+@model Movie
 
-    @foreach (var movie in Model)
-    {
+<div class="row">
+    <div class="col-md-3">
+        @Html.Partial("_menu")
+    </div>
+    <div class="col-md-9">
         <div class="card mb-3">
             <div class="row no-gutter">
                 <div class="col-md-3">
-                    <img src="~/img/@movie.ImageUrl" alt="@movie.Description" class="card-img">
+                    <img src="~/img/@Model.ImageUrl" alt="@Model.Description" class="card-img">
                 </div>
                 <div class="col-md-9">
                     <div class="card-body">
                         <h5 class="card-title">
-                            <a asp-action="Details" asp-controller="Home" asp-route-id="@movie.Id"> @movie.Name </a>
+                            <a asp-action="Details" asp-controller="Home" asp-route-id="@Model.Id"> @Model.Name </a>
                         </h5>
                         <p class="card-text">
-                            @movie.Description
+                            @Html.Raw(@Model.LongDescription)
                         </p>
                         <p class="card-text">
                             <small class="text-muted">3 days ago</small>
@@ -22,4 +25,5 @@
                 </div>
             </div>
         </div>
-    }
+    </div>
+</div>
