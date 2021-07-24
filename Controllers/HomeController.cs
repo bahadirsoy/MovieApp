@@ -7,15 +7,19 @@ namespace MovieApp.Controllers
     {
         public IActionResult Index()
         {
-            var mcm = new MovieCategoryModel();
+            var model = new MovieCategoryModel();
 
-            mcm.Movies = MovieRepository.Movies;
-            mcm.Categories = CategoryRepository.Categories;
+            model.Movies = MovieRepository.Movies;
+            model.Categories = CategoryRepository.Categories;
 
-            return View(mcm);
+            return View(model);
         }
         public IActionResult Details(int Id){
-          return View(MovieRepository.GetById(Id));
+            MovieCategoryModel model = new MovieCategoryModel();
+            model.Categories = CategoryRepository.Categories;
+            model.Movie = MovieRepository.GetById(Id);
+
+            return View(model);
         }
         public IActionResult Contact()
         {
