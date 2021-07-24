@@ -1,3 +1,4 @@
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using MovieApp.Models;
 
@@ -5,21 +6,18 @@ namespace MovieApp.Controllers
 {
     public class HomeController: Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(int? id)
         {
-            var model = new MovieCategoryModel();
+            var movies = MovieRepository.Movies;
+            
+            if(id != null){
+                movies = movies.Where(i => i.CategoryId == id).ToList();
+            }
 
-            model.Movies = MovieRepository.Movies;
-            model.Categories = CategoryRepository.Categories;
-
-            return View(model);
+            return View(movies);
         }
         public IActionResult Details(int Id){
-            MovieCategoryModel model = new MovieCategoryModel();
-            model.Categories = CategoryRepository.Categories;
-            model.Movie = MovieRepository.GetById(Id);
-
-            return View(model);
+            return View(MovieRepository.GetById(Id));
         }
         public IActionResult Contact()
         {

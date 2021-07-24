@@ -46,3 +46,4 @@ C:\Users\oxika\OneDrive\Masaüstü\MovieApp\obj\Debug\net5.0\Razor\Views\Shared\
 C:\Users\oxika\OneDrive\Masaüstü\MovieApp\obj\Debug\net5.0\Razor\Views\Home\_movies.cshtml.g.cs
 C:\Users\oxika\OneDrive\Masaüstü\MovieApp\obj\Debug\net5.0\Razor\Views\Shared\_menu.cshtml.g.cs
 C:\Users\oxika\OneDrive\Masaüstü\MovieApp\obj\Debug\net5.0\Razor\Views\Home\Details.cshtml.g.cs
+C:\Users\oxika\OneDrive\Masaüstü\MovieApp\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryMenu\Default.cshtml.g.cs
